@@ -228,6 +228,7 @@ Ring:
       semi-group
       (not necessarily abelian, and not all elements may have inverses, associative)
     - Distributive Property (left and right)
+    - does not necessarily have an identity
 
 Units: 
     the set of elements within a Ring which do have mult inverses. 
@@ -253,7 +254,7 @@ Factoring Rings:
 Integral Domain:
     - a commutative ring
     - mult identity 1
-    - no zero divisors (enables cancellation and factoring)
+    - has no zero divisors. E.g., a*b = 0 (mod 5) (enables cancellation and factoring)
     - cancellation property 
         a != 0
         ax=ay, ax-ay=0, a(x-y)= 0 by Distributive
@@ -272,8 +273,7 @@ Ideal:
 
     so it acts as a normal group of rings, which the set of ideals form a Ring.
     So it is a subgroup closed under multiplacation, but it's not a subring as 
-    it misses the identity element 1. (but don't rings not inherently have an identity? 
-    is it that it doesn't have the additive identity?)
+    it misses the identity element 1.
 
 Fields: 
     (
